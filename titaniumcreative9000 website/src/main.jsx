@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Header from './Components/Header.jsx'
 import AboutMe from './Pages/AboutMe.jsx'
 import Home from './Pages/Home.jsx'
+import Gallery from './Pages/Gallery.jsx'
 
 function Page(){
   return(
@@ -15,6 +16,7 @@ function Page(){
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </BrowserRouter>
     </>
