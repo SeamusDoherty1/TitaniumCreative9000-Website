@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 55px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+.nav-list-item{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
