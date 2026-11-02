@@ -4,10 +4,14 @@ body {
     background: #27292c;
     color: white;
 }
+h1{
+    text-align: center;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-self: auto;
 }
 .logo{
     width: 55px;
