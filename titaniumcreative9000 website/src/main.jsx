@@ -7,6 +7,8 @@ import Header from './Components/Header.jsx'
 import AboutMe from './Pages/AboutMe.jsx'
 import Home from './Pages/Home.jsx'
 import Gallery from './Pages/Gallery.jsx'
+import Comics from './Pages/Comics.jsx'
+import Videos from './Pages/Videos.jsx'
 
 function Page(){
   return(
@@ -17,6 +19,8 @@ function Page(){
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/comics" element={<Comics />} />
+        <Route path="/videos" element={<Videos />} />
       </Routes>
     </BrowserRouter>
     </>
