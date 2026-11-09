@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import Home from "../Pages/Home"
 import AboutMe from "../Pages/AboutMe"
+import Dropdown from "../Components/Dropdown"
+
+const comicChapters = [
+  {label: "Chapter 5", value: '5'}
+]
 export default function Header(){
     return(
         <header>
